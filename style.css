@@ -131,3 +131,10 @@ h1 {
     font-weight: 700;
     text-align: center;
 }
+
+.video-section{
+    background-image: url('./img/bottom.png');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
