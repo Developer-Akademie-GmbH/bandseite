@@ -6,16 +6,27 @@ body {
 .aot {
     background-image: url('./img/header.png');
     height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(255,255,255, 0.2);
     padding: 16px;
 }
 
 header img {
     width: 100px;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;;
+}
+
+.navLink:hover {
+    color: #B48A4E;
 }
