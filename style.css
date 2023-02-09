@@ -37,6 +37,10 @@ header img {
     ;
 }
 
+.mt-16 {
+    margin-top: 16px;
+}
+
 .navLink:hover {
     color: #B48A4E;
 }
@@ -63,7 +67,6 @@ h1 {
     color: white;
     text-decoration: none;
     padding: 16px;
-    margin-top: 16px;
 }
 
 .section-quicklinks {
@@ -91,6 +94,7 @@ h1 {
 .buy-ticket-section {
     background-color: #272727;
     display: flex;
+    align-items: center;
 }
 
 .buy-ticket-img-left {
@@ -99,8 +103,31 @@ h1 {
 
 .festival-info {
     padding: 40px;
+    height: 200px;
+    flex: 1;
 }
 
 .festival-info h2 {
     margin-block-start: 0;
+}
+
+.seperator {
+    background-color: white;
+    width: 1px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.buy-ticket-container {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.slogan-section {
+    padding: 80px 80px;
+    color: #B48A4E;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
 }
