@@ -2,3 +2,20 @@ body {
     margin: 0;
     font-family: 'PT Sans', sans-serif;
 }
+
+.aot {
+    background-image: url('./img/header.png');
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255,255,255, 0.2);
+    padding: 16px;
+}
+
+header img {
+    width: 100px;
+}
