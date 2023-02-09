@@ -87,3 +87,20 @@ h1 {
     width: 200px;
     height: 200px;
 }
+
+.buy-ticket-section {
+    background-color: #272727;
+    display: flex;
+}
+
+.buy-ticket-img-left {
+    height: 280px;
+}
+
+.festival-info {
+    padding: 40px;
+}
+
+.festival-info h2 {
+    margin-block-start: 0;
+}
