@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'PT Sans', sans-serif;
+    color: white;
 }
 
 .aot {
@@ -8,6 +9,10 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
@@ -15,6 +20,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 header img {
@@ -24,9 +33,35 @@ header img {
 .navLink {
     color: white;
     text-decoration: none;
-    margin-left: 16px;;
+    margin-left: 16px;
+    ;
 }
 
 .navLink:hover {
     color: #B48A4E;
+}
+
+.navImage {
+    height: 24px;
+    width: auto;
+    margin-left: 16px;
+}
+
+.navImage:hover {
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 4px #FFFFFF);
+}
+
+h1 {
+    font-size: 84px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.button {
+    background-color: #B48A4E;
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    margin-top: 16px;
 }
