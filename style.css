@@ -170,7 +170,9 @@ footer {
 
 input {
     height: 41px;
+    flex: 1;
 }
+
 input::placeholder{
     color: rgba(0,0,0,0.4);
     padding-left: 16px;
