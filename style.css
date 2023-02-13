@@ -155,7 +155,7 @@ footer {
     width: 32px;
 }
 
-.footer-left{
+.footer-left {
     font-size: 24px;
     font-weight: 700;
     display: flex;
@@ -175,8 +175,8 @@ input {
     flex: 1;
 }
 
-input::placeholder{
-    color: rgba(0,0,0,0.4);
+input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
     padding-left: 16px;
 }
 
@@ -187,4 +187,12 @@ input::placeholder{
 
 .footer-form {
     display: flex;
+}
+
+@media(max-width: 700px) {
+    .hide-mobile {
+        display: none;
+    }
+
+
 }
