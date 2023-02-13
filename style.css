@@ -132,9 +132,55 @@ h1 {
     text-align: center;
 }
 
-.video-section{
+.video-section {
     background-image: url('./img/bottom.png');
     height: 600px;
     background-size: cover;
     background-position: center;
+}
+
+footer {
+    display: flex;
+    background-color: #000000;
+    padding: 80px 80px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.footer-social-media-icon {
+    width: 32px;
+}
+
+.footer-left{
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-end;
+    padding-right: 16px;
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 41px;
+}
+input::placeholder{
+    color: rgba(0,0,0,0.4);
+    padding-left: 16px;
+}
+
+.button-footer {
+    width: 200px;
+    border-width: 0;
+}
+
+.footer-form {
+    display: flex;
 }
