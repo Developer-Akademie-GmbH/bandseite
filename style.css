@@ -60,6 +60,8 @@ h1 {
     font-size: 84px;
     margin-block-start: 0;
     margin-block-end: 0;
+    font-family: 'Viga';
+    font-weight: 100;
 }
 
 .button {
